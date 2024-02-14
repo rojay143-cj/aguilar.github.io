@@ -6,106 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Zodiac</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            line-height: 1.5;
-            text-decoration: none;
-            list-style: none;
-            color: #ffffff;
-        }
-        body {
-            font-family: angie, sans-serif;
-            font-size: 1rem;
-            overflow-x: hidden;
-        }
-        /* Header */
-        .head-container {
-            background: url(image/background.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: cover;
-            min-height: 100vh;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            width: 90%;
-            margin: 0 auto;
-        }
-        .header ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .header ul li {
-            margin-left: 20px;
-        }
-        .header ul li:first-child {
-            margin-left: 0;
-        }
-        .header ul li a:hover {
-            text-decoration: underline;
-            border: none;
-        }
-        #active {
-            text-decoration: underline;
-        }
-        /* Content Header */
-        .header-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .side-right img {
-            max-width: 100%;
-            width: 50%;
-            height: auto;
-            border-radius: 50%;
-        }
-        /* Footer */
-        .footer {
-            background-color: #525252;
-            border: 3px solid #ffffff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .foot {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            align-items: center;
-            text-align: center;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .foot > div {
-            margin-bottom: 20px;
-        }
-        .foot span {
-            font-size: 2rem;
-        }
-        .foot p {
-            margin-top: 10px;
-        }
-        .smart, .fast, .perfect {
-            width: 300px;
-            max-width: 100%;
-            margin: 0 10px;
-        }
+        
     </style>
 </head>
 <body>
     <div class="head-container">
         <header class="header">
-            <img class="logo" src="image/ZODIAC.png" alt="ZODIAC" style="width: auto;height: 60px;object-fit: cover;">
+            <img class="logo" src="image/ZODIAC.png" alt="ZODIAC">
             <ul>
                 <li><a id="active" href="#">Home</a></li>
                 <li><a href="#">Portfolio</a></li>
@@ -118,8 +25,12 @@
             </div>
             <div class="side-left">
                 <p>Hi, I'm Christian</p>
-                <h1>I'm Professional Web/Software Developer & Wordpress Developer</h1>
-                <span>The pioneer of the past & future</span>
+                <h1>I'm a Professional Web/Software Developer & Wordpress Developer</h1>
+                <span>The pioneer of the past & the future</span>
+            </div>
+            <div class="extra-button">
+                <button>Hire Me</button>
+                <button>Download CV</button>
             </div>
         </div>
     </div>
@@ -136,6 +47,16 @@
             <div class="perfect">
                 <span>&#x26A1;</span>
                 <p>I possess the expertise and dedication to construct projects of flawless precision. With every endeavor, I strive for perfection, delivering results that exceed expectations.</p>
+            </div>
+        </div>
+        <div class="foot-image">
+            <div class="foot-img">
+                <img src="image/foot-image.jpg" alt="Working">
+            </div>
+            <div class="foot-service">
+                <span>My Services</span>
+                <h3>What do I do?</h3>
+                <p>I'f you'll hire me as your developer opr designer you will experience having a great developer and Professional projects for your business</p>
             </div>
         </div>
     </div>

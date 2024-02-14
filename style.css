@@ -1,4 +1,133 @@
 @font-face {
     font-family: angie;
     src: url(fonts/angie.otf);
+}@font-face {
+    font-family: cortah;
+    src: url(fonts/crotah.ttf);
+}@font-face {
+    font-family: baufra;
+    src: url(fonts/baufra-medium.ttf);
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: angie, sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+    color: #cfcece;
+}
+/* Header */
+.head-container {
+    background: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li {
+    margin-left: 50px;
+}
+.header ul li:first-child {
+    margin-left: 0;
+}.header ul li a{
+    color: #ffffff;
+}
+.header ul li a:hover {
+    text-decoration: underline;
+    border: none;
+}
+#active {
+    text-decoration: underline;
+}.logo{
+    width: auto;
+    height: 60px;
+    object-fit: cover;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/* Content Header */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+}
+.side-right img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}.side-left h1{
+    font-size: 35px;
+    color: #ffffff;
+}
+/* Footer */
+.footer {
+    background-color: #151515;
+    padding: 20px 0;
+    text-align: center;
+    color: #cfcece;
+    font-family: baufra;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.foot > div {
+    margin-bottom: 20px;
+}
+.foot span {
+    font-size: 2rem;
+}
+.foot p {
+    margin-top: 10px;
+}
+.smart, .fast, .perfect {
+    width: 300px;
+    max-width: 100%;
+    margin: 0 10px;
+}.extra-button{
+    margin-top: 25px;
+}.extra-button > button{
+    font-size: 22px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: #3C415C;
+    cursor: pointer;
+}.foot-image .foot-service p{
+    width: 300px;
+    margin: 0 auto;
+}.foot-image .foot-service h3{
+    color: #ffffff;
+}
+
+/* */
