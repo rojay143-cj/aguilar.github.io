@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="api/font-awesome.min.css">
+    <script src="zodiac.js"></script>
+    <title>Zodiac</title>
+    <style>
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            min-width: 90vh;
+        }
+        .contact-form{
+            margin: 0 auto;
+            width: 90vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left;
+        }.contact-form > input{
+            height: 40px;
+            width: auto;
+        }.contact-form input, textarea{
+            margin: 10px 0;
+            border: 1px solid #cfcece;
+            box-shadow: 1px 1px 2px 1px #cfcece;
+            background-color: #cfcece;
+            color:  #151515;
+            font-size: 20px;
+            padding: 10px;
+            font-family: baufra;
+        }#send{
+            width: 200px;
+            height: 40px;
+            font-size: 1.1rem;
+            color: #cfcece;
+            background-color: #151515;
+            border: 2px solid #cfcece;
+        }.details{
+            text-align: left;
+            padding: 10px;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="head-container">
+        <header class="header">
+            <img class="logo" src="image/ZODIAC.png" alt="ZODIAC">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a id="active" href="contact.html">Contact</a></li>
+            </ul>
+        </header>
+        <div class="header-content">
+            <div class="side-right">
+                <img src="image/head content2.jpg" alt="Profile">
+            </div>
+            <div class="side-left">
+                <p>Hi, I'm Christian</p>
+                <h1>I'm a Professional Web/Software Developer & Wordpress/Odoo Developer</h1>
+                <span>The pioneer of the past & the future</span>
+            </div>
+            <div class="extra-button">
+                <button>Employ</button>
+                <button id="cv">Download CV</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Feel free to reach out to us for any inquiries or questions regarding our company or services. We are committed to providing prompt and helpful responses. </p>
+        <div class="contact">
+            <div class="contact-form">
+                <label for="txtname">Name *</label>
+                <input type="text" name="txtname" id="txtname">
+                <label for="txtemail">Email *</label>
+                <input type="text" name="txtemail" id="txtemail">
+                <label for="txtphone">Phone number *</label>
+                <input type="text" name="txtphone" id="txtphone">
+                <label for="txtmessage">Message *</label>
+                <textarea name="txtmessage" id="txtmessage"></textarea>
+                <button id="send">Send Message</button>
+            </div>
+            <div class="details">
+                <h4>Zodiac</h4>
+                <p><img src="image/location.png" alt="location" width="30" height="30"> Dumaguete City, Negros Oriental</p>
+                <p><img src="image/phone.png" alt="location" width="30" height="30"> +63 9208979564</p>
+                <p><img src="image/email.png" alt="location" width="30" height="20"> rojaymerlin@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
