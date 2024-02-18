@@ -8,45 +8,48 @@
     <script src="zodiac.js"></script>
     <title>Zodiac</title>
     <style>
-        .contact{
+        .contact-h1{
+            background-color: rgb(75, 87, 99);
             display: flex;
-            justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
-            gap: 50px;
-            min-width: 90vh;
+            justify-content: center;
+            font-size: 1.5rem;
+            padding: 25px;
+            text-align: center;
         }
-        .contact-form{
+        .footer p{
+            width: 50%;
             margin: 0 auto;
-            width: 90vh;
-            padding: 20px;
+        }
+        .footer .contact{
+            max-width: 90vw;
+            margin: 0 auto;
+            padding: 10px;
+            margin-top: 20px;
             display: flex;
             justify-content: center;
-            flex-direction: column;
+            gap: 40px;
+            flex-wrap: wrap;
+        }.contact-form {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+            text-wrap: wrap;
             text-align: left;
-        }.contact-form > input{
-            height: 40px;
-            width: auto;
-        }.contact-form input, textarea{
-            margin: 10px 0;
-            border: 1px solid #cfcece;
-            box-shadow: 1px 1px 2px 1px #cfcece;
-            background-color: #cfcece;
-            color:  #151515;
+        }.contact-form > input, textarea{
             font-size: 20px;
-            padding: 10px;
-            font-family: baufra;
-        }#send{
-            width: 200px;
-            height: 40px;
-            font-size: 1.1rem;
-            color: #cfcece;
-            background-color: #151515;
-            border: 2px solid #cfcece;
+            min-width: 40vw;
+        }.details p{
+            width: 100%;
         }.details{
-            text-align: left;
+          text-align: left;  
+        }#send{
+            justify-self: center;
+            grid-column: span 2;
             padding: 10px;
-            align-self: flex-start;
+            font-size: 1rem;
+            border: 1px solid blanchedalmond;
+            width: 100%;
         }
     </style>
 </head>
@@ -75,6 +78,9 @@
             </div>
         </div>
     </div>
+    <div class="contact-h1">
+        <h1>Contact Christian</h1>
+    </div>
     <div class="footer">
         <p>Feel free to reach out to us for any inquiries or questions regarding our company or services. We are committed to providing prompt and helpful responses. </p>
         <div class="contact">
@@ -90,10 +96,9 @@
                 <button id="send">Send Message</button>
             </div>
             <div class="details">
-                <h4>Zodiac</h4>
                 <p><img src="image/location.png" alt="location" width="30" height="30"> Dumaguete City, Negros Oriental</p>
-                <p><img src="image/phone.png" alt="location" width="30" height="30"> +63 9208979564</p>
-                <p><img src="image/email.png" alt="location" width="30" height="20"> rojaymerlin@gmail.com</p>
+                <p><img src="image/phone.png" alt="phone" width="30" height="30"> +63 9061008410</p>
+                <p><img src="image/email.png" alt="email" width="30" height="20"> rojaymerlin@gmail.com</p>
             </div>
         </div>
     </div>

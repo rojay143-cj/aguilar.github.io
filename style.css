@@ -36,8 +36,9 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    width: 90%;
+    min-width: 90%;
     margin: 0 auto;
+    background-color: #2d3250be;
 }
 .header ul {
     display: flex;
@@ -62,8 +63,8 @@ body {
     width: auto;
     height: 60px;
     object-fit: cover;
-    background-color: #ffffff;
     border-radius: 10px;
+    background-color: #ffffff;
 }
 /* Content Header */
 .header-content {
@@ -81,13 +82,13 @@ body {
     border-radius: 5px;
 }.side-left h1{
     font-size: 35px;
-    color: #ffffff;
+    color: #F6B17A;
     width: 80%;
     margin: 0 auto;
 }
 /* Footer */
 .footer {
-    background-color: #151515;
+    background-color: #424769;
     padding: 20px 0;
     text-align: center;
     color: #cfcece;
@@ -122,8 +123,8 @@ body {
     padding: 10px;
     margin: 5px;
     border: 2px solid #ffffff;
-    color: #ffffff;
-    background-color: #151515;
+    color: #2D3250;
+    background-color: #F6B17A;
     cursor: pointer;
 }.foot-image .foot-service p{
     width: 300px;
